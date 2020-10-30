@@ -14,7 +14,7 @@ describe('OsAppsWin', () => {
                     })
                 ])
             );
-            done();
         }
+        done();
     });
 });
