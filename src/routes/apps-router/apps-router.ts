@@ -1,8 +1,8 @@
-import {Request, Response, Router} from "express";
-import {OsApps} from "../../services/os-apps/os-apps.abstract";
-import {OperatingSystems} from "../../shared/enum/operating-systems.enum";
-import {OsAppsWin} from "../../services/os-apps/win/os-apps-win";
-import TogoLogger from "../../util/logger";
+import {Request, Response, Router} from 'express';
+import {OsApps} from '../../services/os-apps/os-apps.abstract';
+import {OperatingSystems} from '../../shared/enum/operating-systems.enum';
+import {OsAppsWin} from '../../services/os-apps/win/os-apps-win';
+import TogoLogger from '../../util/togo-logger';
 
 export class AppsRouter {
 
