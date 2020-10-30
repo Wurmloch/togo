@@ -2,6 +2,7 @@ import {Request, Response, Router} from "express";
 import {OsApps} from "../../services/os-apps/os-apps.abstract";
 import {OperatingSystems} from "../../shared/enum/operating-systems.enum";
 import {OsAppsWin} from "../../services/os-apps/win/os-apps-win";
+import TogoLogger from "../../util/logger";
 
 export class AppsRouter {
 
@@ -24,6 +25,7 @@ export class AppsRouter {
     appListGetter() {
         this.router.get('/apps', async (_req: Request, res: Response) => {
            const appList = await this.osApps?.retrieveApps();
+           TogoLogger.write('info', `Found ${appList?.length} active tasks / apps`);
            res.json(appList);
         });
     }
