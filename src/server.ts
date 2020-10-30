@@ -1,5 +1,5 @@
 import express, {Express, Router} from 'express';
-import TogoLogger from "./util/logger";
+import TogoLogger from "./util/togo-logger";
 import {AppsRouter} from "./routes/apps-router/apps-router";
 
 class TogoServer {
