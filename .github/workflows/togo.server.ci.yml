@@ -25,10 +25,13 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
+      working-directory: ./server
     - name: Module Cache
       uses: actions/cache@v2.1.2
       with:
-        path: ./node_modules
+        path: ./server/node_modules
         key: NodeModules
     - run: npm run build
+      working-directory: ./server
     - run: npm run test-ci
+      working-directory: ./server
