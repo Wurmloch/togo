@@ -1,31 +1,36 @@
 import express, {Express, Router} from 'express';
 import TogoLogger from './util/togo-logger';
 import {AppsRouter} from './routes/apps-router/apps-router';
+import cors from 'cors';
 
 class TogoServer {
 
     private app: Express = express();
     private appsRouter: Router = new AppsRouter().router;
 
-    constructor(private port?: number) {
+    constructor(private port: number = 3000) {
         this.configureServer()
         this.runServer();
     }
 
     private configureServer() {
+        this.app.use(cors({
+            origin: ['http://localhost:8080'],
+            optionsSuccessStatus: 200
+        }));
         this.app.use('/api', this.appsRouter);
     }
 
     private async runServer(): Promise<void> {
-        this.app.listen(this.port ?? 3000, () => {
-            TogoLogger.write('info', `Server listening on port ${this.port ?? 3000}`);
-        }).on('error', (err) => {
+        this.app.listen(this.port, () => {
+            TogoLogger.write('info', `Server listening on port ${this.port}`);
+        }).on('error', (err: any) => {
             TogoLogger.write('error', `${err.name}: ${err.message}`);
         });
     }
 }
 
 function bootstrap() {
-    new TogoServer(3000);
+    new TogoServer();
 }
 bootstrap();
