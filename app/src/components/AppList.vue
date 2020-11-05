@@ -14,14 +14,6 @@
       loading-text="Loading OS Apps... Please wait"
       class="elevation-1"
     ></v-data-table>
-    <v-list>
-      <v-list-item v-for="app in appList" v-bind:key="app.pid">
-        <v-list-item-icon>
-          <v-icon v-if="app.sessionName === windowsAppSessionName.CONSOLE">widgets</v-icon>
-          <v-icon v-if="app.sessionName === windowsAppSessionName.SERVICES">miscellaneous_services</v-icon>
-        </v-list-item-icon>
-      </v-list-item>
-    </v-list>
   </div>
 </template>
 
