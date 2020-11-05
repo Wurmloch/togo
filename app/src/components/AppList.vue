@@ -43,6 +43,10 @@ export default class AppList extends Vue {
 
   private loadingAppList = false
 
+  created () {
+    this.retrieveApps()
+  }
+
   public get windowsAppSessionName (): typeof WindowsAppSessionName {
     return WindowsAppSessionName
   }

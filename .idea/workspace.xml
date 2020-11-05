@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64a519d-3123-4cfd-9b23-49cf8aa77c47" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/filters/bitsToMB.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/typings/enum/windows-app-session-name.enum.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/typings/globals.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/typings/interface/windows-app.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/views/Settings.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/unit/example.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/nodemon.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/apps-router/apps-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/apps-router/apps-router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/os-apps/os-apps.abstract.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/services/os-apps/os-apps.abstract.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/os-apps/win/os-apps-win.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/services/os-apps/win/os-apps-win.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/os-apps/win/os-apps-win.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/services/os-apps/win/os-apps-win.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/enum/operating-systems.enum.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/shared/enum/operating-systems.enum.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/togo-logger.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/util/togo-logger.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/togo-logger.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/util/togo-logger.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/AppList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/AppList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +68,7 @@
       <workItem from="1604341244207" duration="4378000" />
       <workItem from="1604353162504" duration="6773000" />
       <workItem from="1604522396381" duration="1452000" />
-      <workItem from="1604523924070" duration="12419000" />
+      <workItem from="1604523924070" duration="12589000" />
     </task>
     <servers />
   </component>
