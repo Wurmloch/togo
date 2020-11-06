@@ -16,7 +16,7 @@ export default abstract class TogoLogger {
         ],
     });
 
-    static write(level: string, message: string) {
+    static write(level: string, message: string): void {
         this.logger.log(level, message);
     }
 }

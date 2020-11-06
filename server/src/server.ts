@@ -24,7 +24,7 @@ class TogoServer {
     private async runServer(): Promise<void> {
         this.app.listen(this.port, () => {
             TogoLogger.write('info', `Server listening on port ${this.port}`);
-        }).on('error', (err: any) => {
+        }).on('error', (err: Error) => {
             TogoLogger.write('error', `${err.name}: ${err.message}`);
         });
     }

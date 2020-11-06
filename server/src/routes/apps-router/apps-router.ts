@@ -14,7 +14,7 @@ export class AppsRouter {
         this.appListGetter();
     }
 
-    chooseOsAppsForPlatform() {
+    chooseOsAppsForPlatform(): void {
         switch(process.platform) {
             case OperatingSystems.WIN:
                 this.osApps = new OsAppsWin();
@@ -22,7 +22,7 @@ export class AppsRouter {
         }
     }
 
-    appListGetter() {
+    appListGetter(): void{
         this.router.get('/apps', async (_req: Request, res: Response) => {
            const appList = await this.osApps?.retrieveApps();
            TogoLogger.write('info', `Found ${appList?.length} active tasks / apps`);
