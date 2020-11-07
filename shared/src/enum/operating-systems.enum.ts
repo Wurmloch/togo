@@ -7,3 +7,4 @@ export enum OperatingSystems {
     SUNOS = 'sunos',
     WIN = 'win32'
 }
+

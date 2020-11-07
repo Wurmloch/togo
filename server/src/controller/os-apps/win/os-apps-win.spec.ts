@@ -1,4 +1,4 @@
-import {OperatingSystems} from "../../../shared/enum/operating-systems.enum";
+import {OperatingSystems} from "../../../../../shared/src/enum/operating-systems.enum";
 import {OsAppsWin} from "./os-apps-win";
 import {OsApps} from "../os-apps.abstract";
 

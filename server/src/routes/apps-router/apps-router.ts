@@ -1,7 +1,7 @@
 import {Request, Response, Router} from 'express';
-import {OsApps} from '../../services/os-apps/os-apps.abstract';
-import {OperatingSystems} from '../../shared/enum/operating-systems.enum';
-import {OsAppsWin} from '../../services/os-apps/win/os-apps-win';
+import {OsApps} from '../../controller/os-apps/os-apps.abstract';
+import {OperatingSystems} from '@togo/shared';
+import {OsAppsWin} from '../../controller/os-apps/win/os-apps-win';
 import TogoLogger from '../../util/togo-logger';
 
 export class AppsRouter {
@@ -23,10 +23,11 @@ export class AppsRouter {
     }
 
     appListGetter(): void{
-        this.router.get('/apps', async (_req: Request, res: Response) => {
-           const appList = await this.osApps?.retrieveApps();
-           TogoLogger.write('info', `Found ${appList?.length} active tasks / apps`);
-           res.json(appList);
+        this.router.get('/apps', async (req: Request, res: Response) => {
+            const verbose = req.query.verbose?.toString().toLowerCase() === 'true';
+            const appList = await this.osApps?.retrieveApps(verbose ?? false);
+            TogoLogger.write('info', `Found ${appList?.length} active tasks / apps`);
+            res.json(appList);
         });
     }
 }

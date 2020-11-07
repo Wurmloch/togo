@@ -1,7 +1,7 @@
 {
-  "name": "togo-app",
+  "name": "@togo/app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve --host localhost",
     "build": "vue-cli-service build",
@@ -20,6 +20,7 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@togo/shared": "file:../shared",
     "@types/axios": "^0.14.0",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
@@ -48,5 +49,7 @@
     "vue-cli-plugin-vuetify": "^2.0.7",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.3.0"
-  }
+  },
+  "author": "Dominik Mueller",
+  "license": "MIT"
 }

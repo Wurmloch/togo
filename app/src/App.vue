@@ -1,11 +1,12 @@
 <template>
   <v-app id="app">
-    <v-navigation-drawer app>
+    <v-navigation-drawer app v-model="drawer">
       <!-- -->
     </v-navigation-drawer>
 
     <v-app-bar app>
-      <!-- -->
+      <v-app-bar-nav-icon v-on:click="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-toolbar-title>TOGO</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -17,10 +18,11 @@
 </template>
 
 <script>
-
-import AppList from '@/components/AppList'
 export default {
   name: 'app',
+  data: () => ({
+    drawer: false
+  }),
   components: { }
 }
 </script>

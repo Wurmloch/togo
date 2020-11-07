@@ -11,7 +11,7 @@
       :items="appList"
       :items-per-page="20"
       :loading="loadingAppList"
-      loading-text="Loading OS Apps... Please wait"
+      :loading-text="loadingAppListTitle"
       class="elevation-1"
     ></v-data-table>
   </div>
@@ -20,8 +20,7 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
 import axios from 'axios'
-import WindowsApp from '@/typings/interface/windows-app'
-import WindowsAppSessionName from '@/typings/enum/windows-app-session-name.enum'
+import { WindowsApp, WindowsAppSessionName } from '@togo/shared'
 import bitsToMB from '@/filters/bitsToMB'
 
 @Component
@@ -29,11 +28,16 @@ export default class AppList extends Vue {
   private appList: WindowsApp[] = []
   private listHeaders = [
     { text: 'Name', align: 'left', sortable: true, value: 'imageName' },
+    { text: 'Display Name', align: 'left', sortable: true, value: 'windowTitle' },
     { text: 'PID', align: 'left', sortable: true, value: 'pid' },
-    { text: 'Memory', align: 'right', sortable: true, value: 'memUsage' }
+    { text: 'Memory', align: 'left', sortable: true, value: 'memUsage' },
+    { text: 'CPU Time', align: 'left', sortable: true, value: 'cpuTime' },
+    { text: 'Status', align: 'left', sortable: true, value: 'status' },
+    { text: 'User', align: 'left', sortable: true, value: 'username' }
   ]
 
   private loadingAppList = false
+  private loadingAppListTitle = 'Loading OS Apps...'
 
   created () {
     this.retrieveApps()
@@ -45,8 +49,13 @@ export default class AppList extends Vue {
 
   async retrieveApps () {
     this.loadingAppList = true
+    this.loadingAppListTitle = 'Loading OS Apps...'
     try {
       this.appList = (await axios.get(`${process.env.VUE_APP_API_URL}/apps`)).data
+      this.loadingAppListTitle = 'OS Apps retrieved. Loading more details...'
+      this.appList = (await axios.get(`${process.env.VUE_APP_API_URL}/apps`, {
+        params: { verbose: true }
+      })).data
       for (const app of this.appList) app.memUsage = bitsToMB(app.memUsage)
     } catch (err) {
       console.log(err)
