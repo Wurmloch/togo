@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b64a519d-3123-4cfd-9b23-49cf8aa77c47" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/AppList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/AppList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/typings/enum/windows-app-session-name.enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/typings/globals.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/typings/interface/windows-app.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/views/Settings.vue" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/views/Settings.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/routes/apps-router/apps-router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/routes/apps-router/apps-router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/services/os-apps/os-apps.abstract.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/services/os-apps/win/os-apps-win.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/services/os-apps/win/os-apps-win.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/shared/enum/operating-systems.enum.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jdilDO8QfEFbZP4jHahZ66cgc5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/app/.env&#10;true&#10;E:/EigeneDateien/Dokumente/Projekte/togo/server/error.log" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/shared/enum" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="E:\EigeneDateien\Dokumente\Projekte\togo\app\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\server\src\shared\enum" />
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\server\src\shared\interface" />
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\app\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\shared\src" />
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\shared" />
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\app\src\typings" />
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\app\src" />
+      <recent name="E:\EigeneDateien\Dokumente\Projekte\togo\app" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:8080">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b64a519d-3123-4cfd-9b23-49cf8aa77c47" name="Default Changelist" comment="" />
+      <created>1604140517027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604140517027</updated>
+      <workItem from="1604140518694" duration="1630000" />
+      <workItem from="1604232856993" duration="599000" />
+      <workItem from="1604341244207" duration="4378000" />
+      <workItem from="1604353162504" duration="6773000" />
+      <workItem from="1604522396381" duration="1452000" />
+      <workItem from="1604523924070" duration="13141000" />
+      <workItem from="1604686845087" duration="1141000" />
+      <workItem from="1604690235977" duration="82000" />
+      <workItem from="1604690415629" duration="2764000" />
+      <workItem from="1604693375029" duration="32000" />
+      <workItem from="1604694604237" duration="5890000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/server" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="262" key="FileChooserDialogImpl" timestamp="1604351262520">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604351262520" />
+    <state width="1257" height="380" key="GridCell.Tab.0.bottom" timestamp="1604525680400">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604154847314" />
+    <state width="1257" height="380" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1604525680400" />
+    <state width="1257" height="380" key="GridCell.Tab.0.center" timestamp="1604525680400">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604154847314" />
+    <state width="1257" height="380" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1604525680400" />
+    <state width="1257" height="380" key="GridCell.Tab.0.left" timestamp="1604525680400">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604154847314" />
+    <state width="1257" height="380" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1604525680400" />
+    <state width="1257" height="380" key="GridCell.Tab.0.right" timestamp="1604525680400">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1899" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604154847314" />
+    <state width="1257" height="380" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1604525680400" />
+    <state x="1475" y="268" key="SettingsEditor" timestamp="1604694630851">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="922" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604353141502" />
+    <state x="1475" y="268" key="SettingsEditor/0.0.3072.1688@0.0.3072.1688" timestamp="1604694630851" />
+    <state x="487" y="419" width="577" height="849" key="find.popup" timestamp="1604687168178">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="487" y="419" width="577" height="849" key="find.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1604687168178" />
+    <state x="418" y="406" key="run.anything.popup" timestamp="1604534175733">
+      <screen x="0" y="0" width="3072" height="1688" />
+    </state>
+    <state x="418" y="406" key="run.anything.popup/0.0.3072.1688@0.0.3072.1688" timestamp="1604534175733" />
+  </component>
+</project>

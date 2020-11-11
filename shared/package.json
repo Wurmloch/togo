@@ -1,0 +1,20 @@
+{
+  "name": "@togo/shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "This shared lib contains all declarations for togo-server and togo-app",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "build": "tsc"
+  },
+  "author": "Dominik Mueller",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.12.1",
+    "typescript": "^4.0.5"
+  }
+}
